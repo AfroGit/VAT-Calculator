@@ -6,6 +6,7 @@
 // console.log (total) 
 
 // This function clear all the values
+/*The clearScreen() function access the DOM using the id of the result and clear its value by assigning it an empty string. You can use DOM selectors to target various components of a page.*/ 
 function clearScreen() {
     document.getElementById("result").value = "";
 }
